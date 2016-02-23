@@ -17,8 +17,8 @@ describe 'matrixToCSV', ->
     Then ->
       @result == '''
         sep=;
-        1,2,3
-        a,b,c
+        1;2;3
+        a;b;c
       '''
 
   describe 'different row lengths', ->
@@ -30,6 +30,6 @@ describe 'matrixToCSV', ->
     Then ->
       @result == '''
         sep=;
-        1,2,3
+        1;2;3
         a
       '''
