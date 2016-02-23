@@ -6,7 +6,7 @@ describe 'matrixToCSV', ->
 
   describe 'empty input', ->
     Given -> @input = []
-    Then -> @result == ''
+    Then -> @result == 'sep=;'
 
   describe 'non empty', ->
     Given ->
@@ -16,6 +16,7 @@ describe 'matrixToCSV', ->
       ]
     Then ->
       @result == '''
+        sep=;
         1,2,3
         a,b,c
       '''
@@ -28,6 +29,7 @@ describe 'matrixToCSV', ->
       ]
     Then ->
       @result == '''
+        sep=;
         1,2,3
         a
       '''
