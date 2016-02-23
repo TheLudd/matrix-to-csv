@@ -2,7 +2,7 @@
   "name": "matrix-to-csv",
   "version": "1.0.0",
   "description": "Turns a matrix object to a CSV string",
-  "main": "index.js",
+  "main": "./lib/matrix-to-csv.js",
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "mocha": "^2.4.5",
