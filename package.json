@@ -1,6 +1,6 @@
 {
   "name": "matrix-to-csv",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Turns a matrix object to a CSV string",
   "main": "./lib/matrix-to-csv.js",
   "devDependencies": {
