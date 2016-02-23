@@ -1,0 +1,25 @@
+{
+  "name": "matrix-to-csv",
+  "version": "1.0.0",
+  "description": "Turns a matrix object to a CSV string",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLudd/matrix-to-csv.git"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "Ludwig Magnusson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheLudd/matrix-to-csv/issues"
+  },
+  "homepage": "https://github.com/TheLudd/matrix-to-csv#readme"
+}
